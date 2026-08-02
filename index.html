@@ -131,7 +131,7 @@ const db = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 const nombresMeses = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
 const conceptosBase = {
   martin: ["Alquiler","ABL","Luz","Gas","Internet","Expensas","Seguro","Tarjeta NX","Transporte","Efectivo"],
-  sr: ["Tarjeta NX","Tarjeta Patagonia","Tarjeta Cencosud","Tarjeta Mercado Pago","Luz SR","Gas SR","Internet SR","Seguro Jeep","Seguro Chery","Seguro Tornado","Seguro casa","Impuestos casa","Impuestos Toay"]
+  sr: ["Tarjeta NX","Tarjeta Patagonia","Tarjeta Cencosud","Tarjeta Mercado Pago","Luz SR","Gas SR","Internet SR","Seguro Nissan","Seguro Chery","Seguro Tornado","Seguro casa","Impuestos casa","Impuestos Toay"]
 };
 let personas = [], meses = [], ingresos = [], gastos = [], mesActual = null, solapaActual = "martin";
 const estado = document.getElementById("estado"), mesSelect = document.getElementById("mesSelect"), anioInput = document.getElementById("anioInput"), tabla = document.getElementById("tablaGastos"), thead = document.getElementById("thead"), aviso = document.getElementById("aviso");
